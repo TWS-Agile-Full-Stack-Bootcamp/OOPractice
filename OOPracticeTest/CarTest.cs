@@ -9,9 +9,7 @@ namespace OOPracticeTest
         public void Should_show_message_with_name_and_speed_when_SpeedUp()
         {
             // given
-            Car car = new Car();
-            car.name = "Cool Car";
-            car.speed = 30;
+            Car car = new Car("Cool Car", 30);
 
             // when
             string message = car.SpeedUp();

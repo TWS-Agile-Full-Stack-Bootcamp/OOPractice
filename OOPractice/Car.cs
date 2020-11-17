@@ -2,8 +2,14 @@ namespace OOPractice
 {
     public class Car
     {
-        public string name;
-        public int speed;
+        private string name;
+        private int speed;
+
+        public Car(string name, int speed)
+        {
+            this.name = name;
+            this.speed = speed;
+        }
 
         public string SpeedUp()
         {
