@@ -2,7 +2,7 @@ namespace OOPractice
 {
     public class Car : Vehicle
     {
-        public Car(string name, int speed) : base(name, speed)
+        public Car(string name, ElectricEngine engine) : base(name, engine.SpeedUp())
         {
         }
     }
