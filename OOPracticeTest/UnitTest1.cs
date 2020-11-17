@@ -1,6 +1,6 @@
-namespace Dotnet_project_template_test
+namespace OOPracticeTest
 {
-    using Dotnet_project_template;
+    using OOPractice;
     using Xunit;
 
     public class UnitTest1
