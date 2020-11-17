@@ -49,7 +49,7 @@
     <Rule Id="SA1300" Action="Error" />
     <Rule Id="SA1303" Action="Error" />
     <Rule Id="SA1306" Action="Error" />
-    <Rule Id="SA1307" Action="Error" />
+    <Rule Id="SA1307" Action="None" />
     <Rule Id="SA1308" Action="Error" />
     <Rule Id="SA1309" Action="Error" />
     <Rule Id="SA1310" Action="None" />
@@ -57,7 +57,7 @@
     <Rule Id="SA1312" Action="Error" />
     <Rule Id="SA1313" Action="Error" />
     <Rule Id="SA1400" Action="Error" />
-    <Rule Id="SA1401" Action="Error" />
+    <Rule Id="SA1401" Action="None" />
     <Rule Id="SA1402" Action="None" />
     <Rule Id="SA1408" Action="Error" />
     <Rule Id="SA1500" Action="Error" />
