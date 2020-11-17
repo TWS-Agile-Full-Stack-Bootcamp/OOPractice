@@ -2,25 +2,16 @@ namespace OOPractice
 {
     public class Driver
     {
-        private readonly string vehicleType;
+        private readonly Vehicle vehicle;
 
-        public Driver(string vehicleType)
+        public Driver(Vehicle vehicle)
         {
-            this.vehicleType = vehicleType;
+            this.vehicle = vehicle;
         }
 
         public string SpeedUp()
         {
-            if ("car".Equals(vehicleType))
-            {
-                return new Car("Cool Car", 30).SpeedUp();
-            }
-            else if ("truck".Equals(vehicleType))
-            {
-                return new Truck("Big Truck", 10).SpeedUp();
-            }
-
-            throw new System.NotImplementedException();
+            return vehicle.SpeedUp();
         }
     }
 }
